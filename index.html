@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/add.png" type="image/x-icon">
+    <title>Login-System</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form id="registrationForm">
+                <h1>Sign Up</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" name="name" placeholder="Name" id="name" />
+                <input type="email" name="email" placeholder="Email" id="email" />
+                <div class="password-toggle">
+                    <input type="password" name="password" placeholder="Password" id="password" />
+                    <i class="toggle-password fas fa-eye"></i>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in-container">
+            <form id="loginForm">
+                <h1>Sign In</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" id="loginEmail" placeholder="Email" />
+                <div class="password-toggle">
+                    <input type="password" id="loginPassword" placeholder="Password" />
+                    <i class="toggle-password fas fa-eye"></i>
+                </div>
+                <a href="#">Forgot your password?</a>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Please login with your personal info</p>
+                    <button class="ghost" id="signInOverelay">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend! </h1>
+                    <p>Enter your personal details and start your journey with us</p>
+                    <button class="ghost" id="signUpOverelay">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sweetalert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Main & App js -->
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
